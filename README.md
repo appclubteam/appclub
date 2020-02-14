@@ -21,28 +21,28 @@ cd nuxt-netlify-cms-starter
 2. 📦 Install dependencies.
 
 ```bash
-yarn install
+npm install
 ```
 
 3. 🏗 Run the project for local dev. This will start a hot-reloading server at `localhost:3000`.
 
 ```bash
-yarn dev
+npm run dev
 ```
 
 4. 🌌 Build the app for server-side rendered deployment. See more about **Universal SSR** in the [Nuxt.js docs](https://nuxtjs.org/guide#server-rendered-universal-ssr-).
 
 ```bash
-yarn build
+npm run build
 
 # And to serve that deployment...
-yarn start
+npm start
 ```
 
 5. ⚡️ Generate a fully pre-rendered static site. See more [in the docs](https://nuxtjs.org/guide#static-generated-pre-rendering-).
 
 ```bash
-yarn generate
+npm run generate
 ```
 
 > This project was bootstrapped with `create-nuxt-app`. There are more detailed explanations of how everything works in the [Nuxt.js docs](https://nuxtjs.org).

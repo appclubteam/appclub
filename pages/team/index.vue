@@ -10,7 +10,7 @@
           v-for="(teamPost, index) in teamPosts"
           :key="index"
         >
-          <a :href="teamPost.url" target="_blank">
+          <a :href="teamPost.url" target="_blank" rel="noopener">
             <div class="card">
               <div class="card-image">
                 <figure class="image is-square">
@@ -27,6 +27,7 @@
           <a
             href="https://www.facebook.com/AppClubUM/photos/a.1804927009747463/1826164714290359/?type=3"
             target="_blank"
+            rel="noopener"
           >
             <p class="title is-6" align="middle">
               +

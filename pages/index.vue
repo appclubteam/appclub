@@ -130,7 +130,8 @@
             <h2
               class="subtitle is-6"
             >There is magic when people from different background come together and share knowledge with each other. It could be a link you drop in the chat, a talk you give, or a casual chat we have. Many problems can be solved easily if you have access to the knowledge of others. We believe brilliant ideas spark when thoughts aggregate, and infinite gains ensues when knowledge shared.</h2>
-            <h1 class="subtitle is-7">more in our member handbook*</h1>
+            <h1 class="subtitle is-7">more in our member handbook *</h1>
+            <p class="is-pulled-right" style="font-size: 0.4rem">* join us</p>
           </div>
         </div>
         <div class="column is-hidden-touch">

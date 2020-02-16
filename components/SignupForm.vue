@@ -7,16 +7,6 @@
       frameborder="0"
       marginheight="0"
       marginwidth="0"
-      class="is-hidden-mobile"
-    >Loading…</iframe>
-    <iframe
-      src="https://docs.google.com/forms/d/e/1FAIpQLSe1qqXq2jTCkaMuilM03Q-5voyMHiviQr4xPO8M2b8Z7ir1OA/viewform?embedded=true"
-      width="100%"
-      height="1695"
-      frameborder="0"
-      marginheight="0"
-      marginwidth="0"
-      class="is-hidden-desktop"
     >Loading…</iframe>
   </div>
 </template>

@@ -49,7 +49,7 @@ export default {
   modules: ['@nuxtjs/markdownit', '@nuxtjs/bulma'],
   markdownit: {
     injected: true,
-    html: true
+    html: true,
   },
   /*
    ** Build configuration

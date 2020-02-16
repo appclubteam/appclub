@@ -11,7 +11,7 @@
         </h1>
         <a
           class="button is-link"
-          href="https://www.facebook.com/plugins/group/join/popup/?group_id=408755619178957&amp;source=email_campaign_plugin"
+          href="https://www.facebook.com/plugins/group/join/popup/?group_id=206109017200714&amp;source=email_campaign_plugin"
           target="_blank"
           rel="noopener"
           @click="stepOneChecked='✅'"
@@ -247,7 +247,7 @@
             </div>
             <div class="field">
               <div class="control">
-                <button class="button" type="submit" @click="submit">Register</button>
+                <button class="button is-black" type="submit" @click="submit">Register</button>
               </div>
             </div>
           </form>

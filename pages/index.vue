@@ -15,7 +15,9 @@
             If that sounds good to you, you should join. Even if you live outside the University of Malaya (UM), outside Malaysia, or not a student anymore. (Yes, most of us are based in UM, but not limiting to, thanks for asking).
           </p>
           <br />
-          <a href="#mission">Learn more about our mission &#8628;</a>
+          <a href="#mission" class="has-text-dark">
+            <strong>Learn more about our mission &#8628;</strong>
+          </a>
         </div>
       </div>
       <picture>
@@ -171,8 +173,15 @@
       </div>
       <p style="padding-top: 20px">
         Questions or comments? Email us at
-        <a href="mailto:appclub.um@gmail.com">appclub.um@gmail.com</a> and follow our
-        <a href="https://facebook.com/AppClubUM">Facebook Page</a>
+        <a
+          href="mailto:appclub.um@gmail.com"
+          class="has-text-dark"
+        >
+          <strong>appclub.um@gmail.com</strong>
+        </a> and follow our
+        <a href="https://facebook.com/AppClubUM" class="has-text-dark">
+          <strong>Facebook Page</strong>
+        </a>
       </p>
     </div>
   </section>

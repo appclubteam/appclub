@@ -30,7 +30,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: '../assets/groupphoto.jpg'
+          content: '/assets/groupphoto.jpg'
         }
       ]
     }

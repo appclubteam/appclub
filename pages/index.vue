@@ -36,7 +36,7 @@
           <nuxt-link to="/talktuesdays">
             <div class="card">
               <div class="card-content">
-                <p class="title is-6">Talk Tuesdays</p>
+                <p class="title is-6">Talk Tuesdays/Thursday</p>
                 <p
                   class="subtitle is-6 has-text-grey"
                 >Interesting talks and a place for members to meet.</p>

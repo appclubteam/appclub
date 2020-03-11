@@ -7,11 +7,7 @@
     <div class="container">
       <div class="columns">
         <div class="column is-two-thirds">
-          <div
-            v-for="(meetupPost, index) in meetupPosts.slice().reverse()"
-            :key="index"
-            style="padding-top:8%"
-          >
+          <div v-for="(meetupPost, index) in meetupPosts" :key="index" style="padding-top:8%">
             <div class="card">
               <div class="card-content">
                 <h1 class="title is-4" style="margin-bottom: 12px">{{meetupPost.title}}</h1>

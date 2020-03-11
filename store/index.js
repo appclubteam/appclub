@@ -1,7 +1,8 @@
 export const state = () => ({
   blogPosts: [],
   teamPosts: [],
-  meetupPosts: []
+  meetupPosts: [],
+  schoolPosts: []
 })
 
 export const mutations = {
@@ -13,6 +14,9 @@ export const mutations = {
   },
   setMeetupPosts(state, list) {
     state.meetupPosts = list
+  },
+  setSchoolPosts(state, list) {
+    state.schoolPosts = list
   }
 }
 
@@ -50,8 +54,19 @@ export const actions = {
       res.slug = key.slice(2, -5)
       return res
     })
+    let schoolFiles = await require.context(
+      '~/assets/content/school/',
+      false,
+      /\.json$/
+    )
+    let schoolPosts = schoolFiles.keys().map(key => {
+      let res = schoolFiles(key)
+      res.slug = key.slice(2, -5)
+      return res
+    })
     await commit('setBlogPosts', blogPosts)
     await commit('setTeamPosts', teamPosts)
     await commit('setMeetupPosts', meetupPosts)
+    await commit('setSchoolPosts', schoolPosts)
   }
 }

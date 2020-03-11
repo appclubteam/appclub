@@ -60,3 +60,17 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "hackathon"
+    label: "Hackathon"
+    folder: "assets/content/hackathon"
+    create: true
+    format: "json"
+    slug: "{{year}}-{{month}}-{{day}}-{{title}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }

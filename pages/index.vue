@@ -33,10 +33,10 @@
       </h1>
       <div class="columns is-variable is-1">
         <div class="column">
-          <nuxt-link to="/talktuesdays">
+          <nuxt-link to="/meetups">
             <div class="card">
               <div class="card-content">
-                <p class="title is-6">Talk Tuesdays/Thursday</p>
+                <p class="title is-6">Meetups</p>
                 <p
                   class="subtitle is-6 has-text-grey"
                 >Interesting talks and a place for members to meet.</p>

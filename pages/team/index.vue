@@ -66,7 +66,6 @@ article {
 </style>
 
 <script>
-import hello from '../../assets/hello.md'
 export default {
   computed: {
     teamPosts() {
@@ -74,9 +73,6 @@ export default {
     },
     blogPosts() {
       return this.$store.state.blogPosts
-    },
-    hello() {
-      return hello
     }
   }
 }

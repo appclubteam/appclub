@@ -81,7 +81,7 @@
         <div class="column">
           <h2
             class="subtitle is-1"
-          >To enable students to develop tech products — and build the tech startup ecosystem in campuses.</h2>
+          >To enable students to develop tech products — and build the tech startup ecosystem on campuses.</h2>
         </div>
       </div>
     </div>

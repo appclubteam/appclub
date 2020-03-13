@@ -21,7 +21,7 @@
           style="font-size:0.6rem"
         >introduce yourself, make your first post.</h1>
       </div>
-      <div class="step">
+      <!-- <div class="step">
         <h1 class="title is-5">Step 2 - Subscribe for updates {{stepTwoChecked}}</h1>
 
         <div v-show="stepTwoChecked==''">
@@ -70,10 +70,10 @@
             data-size="large"
           >Tweet</a>
         </div>
-      </div>
-
+      </div>-->
+      <iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
       <div id="form" class="step">
-        <h1 class="title is-5">Step 3 - Join the community {{stepThreeChecked}}</h1>
+        <h1 class="title is-5">Step 2 - Be part of the community {{stepThreeChecked}}</h1>
         <h1
           class="subtitle has-text-grey-dark"
           style="font-size:0.6rem"
@@ -88,7 +88,7 @@
         <section class="section" v-show="formSubmitted">
           <div class="container has-text-centered">
             <h1 class="title">You're in!</h1>
-            <h2 class="subtitle">Check your mail, we have a letter for you. 💌</h2>
+            <h2 class="subtitle">Watch your mailbox, we will have a letter for you. 💌</h2>
             <img src="../../assets/mail.gif" alt="spongebob tearing mail excitedly" />
           </div>
         </section>

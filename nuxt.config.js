@@ -4,19 +4,22 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
-    meta: [{
-        charset: 'utf-8'
-      },
-      {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1'
-      },
-      {
-        hid: 'description',
-        name: 'description',
-        content: process.env.npm_package_description || ''
-      }
+    title: 'App Club — for students who build apps, or want to.',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { property: 'description', name: 'description', hid: 'description', content: `App Club — for students who build apps, or want to.` },
+      { property: 'og:title', name: 'og:title', content: `App Club — for students who build apps, or want to.` },
+      { property: 'og:description', name: 'og:description', content: `The UM App Club is based in University of Malaya. We enable students to develop tech products — and build the tech startup ecosystem in campuses. We're on a mission to rethink tech education in universities — around the idea of autonomy in choosing what we wanna learn.` },
+      { property: 'og:type', name: 'og:type', content: 'website' },
+      { property: 'og:url', name: 'og:url', content: `https://umapp.club` },
+      { property: 'og:image', name: 'og:image', content: `https://huaiyukhaw.com/ourphoto.jpg` },
+      { property: 'twitter:card', name: 'twitter:card', content: `summary_large_image` },
+      { property: 'twitter:site', name: 'twitter:site', content: `@umappclub` },
+      { property: 'twitter:creator', name: 'twitter:creator', content: `@umappclub` },
+      { property: 'twitter:title', name: 'twitter:title', content: `App Club — for students who build apps, or want to.` },
+      { property: 'twitter:description', name: 'twitter:description', content: `The UM App Club is based in University of Malaya. We enable students to develop tech products — and build the tech startup ecosystem in campuses. We're on a mission to rethink tech education in universities — around the idea of autonomy in choosing what we wanna learn.` },
+      { property: 'twitter:image', name: 'twitter:image', content: `https://huaiyukhaw.com/ourphoto.jpg` }
     ],
     link: [{
       rel: 'icon',
@@ -72,7 +75,7 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {},
+    extend(config, ctx) { },
     postcss: {
       preset: {
         features: {

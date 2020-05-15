@@ -196,10 +196,6 @@
 .behavior-item .subtitle {
   padding-left: 28px;
 }
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-}
 </style>
 
 <script>

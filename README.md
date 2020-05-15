@@ -1,4 +1,4 @@
-# App Club website built in 2020 @ umapp.club
+# App Club website @ [umapp.club](umapp.club)
 
 Pull requests are open.
 

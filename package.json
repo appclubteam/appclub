@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-netlify-cms-starter",
+  "name": "appclub",
   "version": "1.0.0",
-  "description": "A very Spartan boilerplate for using Netlify CMS/static content files with Nuxt.js.",
-  "author": "Henry Desroches <yo@henry.codes> (https://henry.codes)",
+  "description": "App Club — for students who build apps, or want to.",
+  "author": "Huaiyu Khaw",
   "private": true,
   "scripts": {
     "dev": "nuxt",

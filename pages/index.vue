@@ -8,6 +8,31 @@
       <div class="columns">
         <div class="column">
           <h2 class="subtitle">Join us — and help everyone create for the future.</h2>
+          <div class="box featured-box">
+            <article class="media" style="padding-bottom: 0px">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img src="~/assets/internship-icon.png" alt="Internship Icon" />
+                </figure>
+              </div>
+              <div>
+                <strong>Tech Internships Malaysia&nbsp;</strong>
+                <span class="tag is-warning">New !</span>
+                <div
+                  style="padding-top: 6px; padding-bottom: 10px"
+                >A list of most recent tech internship openings in Malaysia</div>
+                <div>
+                  <!-- <span>Go to</span> -->
+                  <!-- <a href="https://internship.umapp.club">internship.umapp.club</a> -->
+                  <a
+                    class="button is-small"
+                    href="https://internship.umapp.club"
+                    target="_blank"
+                  >Go to internship.umapp.club</a>
+                </div>
+              </div>
+            </article>
+          </div>
         </div>
         <div class="column is-half">
           <p>
@@ -195,6 +220,11 @@
 
 .behavior-item .subtitle {
   padding-left: 28px;
+}
+
+.featured-box {
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23CFBD40FF' stroke-width='2' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+  box-shadow: none;
 }
 </style>
 

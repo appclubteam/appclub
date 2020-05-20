@@ -14,7 +14,7 @@
             <div class="card">
               <div class="card-image">
                 <figure class="image is-square">
-                  <img :src="teamPost.image" :alt="teamPost.name" />
+                  <img :src="teamPost.image" :alt="teamPost.name" class="grayscale-img" />
                 </figure>
               </div>
               <div class="card-content" align="middle">
@@ -54,7 +54,7 @@
 </template>
 
 <style >
-figure img {
+.grayscale-img {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }

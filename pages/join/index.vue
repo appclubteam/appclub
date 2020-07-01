@@ -2,7 +2,7 @@
 <body>
   <section class="section">
     <div class="container has-text-centered">
-      <h1 class="title">We aims to help students who build apps, or want to.</h1>
+      <h1 class="title">We aim to help students who build apps, or want to.</h1>
       <h2 class="subtitle is-6">You’ve got to be willing to disrupt (and be disrupted).</h2>
       <div class="step">
         <h1 class="title is-5">

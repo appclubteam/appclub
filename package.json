@@ -18,7 +18,7 @@
   "dependencies": {
     "@nuxtjs/bulma": "^1.2.6",
     "@nuxtjs/markdownit": "^1.2.6",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "nuxt": "^2.11.0"
   },
   "devDependencies": {
